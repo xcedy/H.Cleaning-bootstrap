@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.woff2') format('woff2'),
+         url('../fonts/Raleway-Regular.woff') format('woff');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FA5';
+    src: url('../fonts/Font_Awesome_5_Brands_Regular.woff2') format('woff2'),
+         url('../fonts/Font_Awesome_5_Brands_Regular.woff') format('woff');
+    font-weight: 400;
+}
+
+body {
+    width: 100%;
+}
+
+.header-info {
+    background-color: #1175b7;
+    height: 54px;
+    padding: 0 238px;
+    padding-right: 155px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-wrapper {
+    width: 740px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-link {
+    color: #fff;
+    text-decoration: none;
+
+    font-family: 'Raleway';
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.header-link:hover {
+    color: #f6a937;
+}
+
+.social-wrapper {
+    width: 160px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social {
+    display: block;
+    width: 18px;
+    color: #fff;
+    text-decoration: none;
+
+    font-family: 'FA5';
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.social:hover {
+    color: #f6a937;
+}
