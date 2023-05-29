@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <div class=".container-fluid header-info">
+        <div class="container-fluid header-info">
             <div class="info-wrapper">
                 <a class="icon-link header-link" href="#">
                     <svg class="bi" aria-hidden="true" width="11" height="15" viewBox="0 0 11 15">
@@ -62,7 +62,112 @@
                 <a href="#" class="social"></a>
             </div>
         </div>
+        <div class="container-fluid header-main-wrapper">
+            <nav class="navbar header-nav">
+                <a href="#" class="navbar-brand logo">
+                    <p>H.<span>C</span>leaning</p>
+                </a>
+                <ul class="navbar-nav nav-list">
+                    <li class="nav-item header-list-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item header-list-item">
+                        <a href="#" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item header-list-item">
+                        <a href="#" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item header-list-item">
+                        <a href="#" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item header-list-item">
+                        <a href="#" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item header-list-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <a class="btn btn-primary main-slider-btn" href="#">Request a Quote</a>
+            </nav>
+        </div>
     </header>
+    <main>
+        <section class="container-fluid main-slider">
+            <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/slider-img/1.jpg" alt="" width="1519" height="800">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slider-img/2.jpg" alt="" width="1519" height="800">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slider-img/3.jpg" alt="" width="1519" height="800">
+                    </div>
+                </div>
+            </div>
+            <div class="main-slider-wrapper">
+                <p class="main-slider-paragraph">We clean a Whole lot more!</p>
+                <h1 class="main-slider-header">Cleaning Yours House Make World & Clean Mine</h1>
+                <a class="btn btn-primary main-slider-btn" href="#">Book Today</a>
+            </div>
+        </section>
+        <section class="container-fluid about-container">
+            <div class="about-wrapper">
+                <img src="img/main-about.jpg" alt="" width="635" height="748">
+                <div class="about-company-wrapper">
+                    <div class="about-company">
+                        <p class="about-company-header-paragraph">The best House cleaning Company</p>
+                        <h2 class="about-company-header">About Our Moura's Company</h2>
+                        <p class="about-company-paragraph">We Specialize in window cleaning,window tinting
+                            pressure washing gutter cleaning and more. We are
+                            dedicated to improving the look and value of homes
+                            and samll business in their communites.</p>
+                    </div>
+                    <div class="callnumber-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59" height="59" viewBox="0 0 59 59">
+                            <image id="Vector_Smart_Object" data-name="Vector Smart Object" width="59" height="59" xlink:href="data:img/png;base64,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"/>
+                        </svg>
+                        <div class="callnumber-data-wrapper"> 
+                            <h2 class="callnumber-header">Call Us Today</h2>
+                            <a class="callnumber-link" href="#">1-785-452-4521</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid our-services">
+            <div class="services-wrapper">
+                <p class="services-paragraph">What we are offering</p>
+                <h2 class="services-header">Our Services</h2>
+            </div>
+            <div class="services-cards-wrapper">
+                <div class="card" style="width: 22rem;">
+                    <img src="img/card-1.jpg" class="card-img-top" alt="" width="355" height="227">
+                    <div class="card-body">
+                        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карточки.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem;">
+                    <img src="img/card-1.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карточки.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 22rem;">
+                    <img src="img/card-1.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карточки.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
